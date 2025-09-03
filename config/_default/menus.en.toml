@@ -1,0 +1,76 @@
+# -- Main Menu --
+# The main menu is displayed in the header at the top of the page.
+# Acceptable parameters are name, pageRef, page, url, title, weight.
+# 
+# The simplest menu configuration is to provide:
+#   name = The name to be displayed for this menu link
+#   pageRef = The identifier of the page or section to link to
+#
+# By default the menu is ordered alphabetically. This can be
+# overridden by providing a weight value. The menu will then be
+# ordered by weight from lowest to highest.
+
+#[[main]]
+ #name = "Home"
+  #pageRef = "/"
+  #weight = 1
+
+[[main]]
+  name = "About"
+  pageRef = "about"
+  weight = 2
+
+[[main]]
+  name = "Projects"
+  pageRef = "projects"
+  weight = 3
+
+[[main]]
+  name = "Services"
+  pageRef = "services"
+  weight = 4
+
+[[main]]
+  name = "Contact"
+  pageRef = "contact"
+  weight = 5
+
+[[main]]
+  name = "AI Engineering"
+  parent = "Projects"  
+  pageRef = "projects/ai-engineering"
+  weight = 8
+
+[[main]]
+  name = "Analytics and Visualizations"
+  parent = "Projects"
+  pageRef = "projects/analytics-visualizations"
+  weight = 9
+
+[[main]]
+  name = "Data Engineering"
+  parent = "Projects"
+  pageRef = "projects/data-engineering"
+  weight = 11
+
+[[main]]
+  name = "Cloud Integration"
+  parent = "Projects"
+  pageRef = "projects/cloud-integration"
+  weight = 10
+
+
+# -- Footer Menu --
+# The footer menu is displayed at the bottom of the page, just before
+# the copyright notice. Configure as per the main menu above.
+
+
+# [[footer]]
+#   name = "Tags"
+#   pageRef = "tags"
+#   weight = 10
+
+# [[footer]]
+#   name = "Categories"
+#   pageRef = "categories"
+#   weight = 20

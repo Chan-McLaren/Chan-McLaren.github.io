@@ -1,0 +1,55 @@
+.logo img {
+    max-height: 15rem;
+    width: auto;
+  }
+
+.gallery {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 20px !important;
+    justify-content: center !important;
+  }
+  
+.gallery img {
+    max-width: 45% !important;
+    height: 300px !important;
+    display: block !important;
+    margin-bottom: 10px !important;
+  }
+  
+.small-img {
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+  }
+.small-video {
+    max-width: 600px !important;
+    height: 400px !important;
+    display: block;
+    margin: 10px 0;
+  }
+    
+.media-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+  }
+  
+.media-container {
+    height: 300px;          /* consistent height for all media */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+.media-container img,
+.media-container video {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    display: block;
+  }
+  
+  
