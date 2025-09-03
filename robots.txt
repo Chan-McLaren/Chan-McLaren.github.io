@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://github.com/Chan-McLaren/Chan-McLaren.github.io/sitemap.xml
