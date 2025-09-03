@@ -28,7 +28,9 @@ jobs:
 
       # 3️⃣ Build Hugo site
       - name: Build Hugo
-        run: hugo --minify --baseURL="https://Chan-McLaren.github.io/" --gc
+        run: hugo --minify --baseURL="https://Chan-McLaren.github.io/" 
+        env:
+          HUGO_ENV: produciton 
 
       # 4️⃣ Deploy to gh-pages branch
       - name: Deploy to GitHub Pages
