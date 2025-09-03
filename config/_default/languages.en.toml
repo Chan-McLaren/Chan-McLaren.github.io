@@ -17,13 +17,13 @@ weight = 1
 
  [params.author]
     name = "Chandler McLaren"
-    email = "youremail@example.com"
-    image = "headshot.JPG"
+    email = "datasolutions.cm@gmail.com"
+    image = "headshot.jpg"
     imageQuality = 96
     headline = "Data and AI Services"
     #bio = "A little bit about you"
     links = [
-#      { email = "mailto:hello@your_domain.com" },
+      { email = "datasolutions.cm@gmail.com" },
 #     { link = "https://link-to-some-website.com/" },
 #     { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
 #     { apple = "https://www.apple.com" },
