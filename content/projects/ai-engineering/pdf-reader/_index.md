@@ -16,7 +16,7 @@ This chatbot is a Retrieval-Augmented Generation (RAG) system built with Python,
 - The frontend is a Gradio interface, providing an interactive, user-friendly experience for asking questions and viewing answers instantly.
 
 ---
-You can find the code for this project on my
+You can find the code for this project in my
 [Github Repo](https://github.com/Chan-McLaren/PDF_QA_Bot)
 
 ---

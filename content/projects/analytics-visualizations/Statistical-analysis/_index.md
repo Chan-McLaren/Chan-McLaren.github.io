@@ -21,7 +21,7 @@ The following gallery showcases Python-based visualizations designed to highligh
 {{< /gallery >}}
 
 ---
-You can find a project using the methods shown in this gallery on my
+You can find a project using the methods shown in this gallery in my
 [Github Repo](https://github.com/Chan-McLaren/Pymaceuticals-Inc.-Capomulin-)
 
 ---
