@@ -39,4 +39,7 @@ Interactive filters:
 -  Vertical bar charts for category, segment, shipment and state. The charts will stack selected data filtering further and display total in percentage.
 -  Horizontal bar charts for sales, profit, order and number of customers show monthly data compared to preivous year. 
 
+## Reference
+The advanced dasboard is not my original design but a recreation of [Dmitry Shirikov's](https://public.tableau.com/app/profile/dmitry.shirikov/vizzes) Tableau Public Dashboard. I used his dashboard as a learning template, rebuilding it from scratch to match the same vizualizations and functionality. His original work can be found [here](https://public.tableau.com/app/profile/dmitry.shirikov/viz/Superstoresalesdata2/Dash) if you'd like to explore or attempt your own version.
+
 [Back to Analytics and Visualizations]({{< relref "../_index.md" >}})

@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About Me on </title>
-    <link>http://localhost:53729/Chan-McLaren/Chan-McLaren.github.io/about/</link>
+    <link>http://localhost:1313/Chan-McLaren/Chan-McLaren.github.io/about/</link>
     <description>Recent content in About Me on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>datasolutions.cm@gmail.com (Chandler McLaren)</managingEditor>
     <webMaster>datasolutions.cm@gmail.com (Chandler McLaren)</webMaster>
     <copyright>© 2025 Chandler McLaren</copyright>
-    <atom:link href="http://localhost:53729/Chan-McLaren/Chan-McLaren.github.io/about/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/Chan-McLaren/Chan-McLaren.github.io/about/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>
