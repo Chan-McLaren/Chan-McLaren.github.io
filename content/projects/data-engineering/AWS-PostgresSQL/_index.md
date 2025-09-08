@@ -34,7 +34,7 @@ Created fact table:
 - Scripts include functionality to connect to RDS, create tables, and import cleaned data.
 
 ---
-You can find the code for this project on my Github:
+You can find the code for this project on my
 [Github Repo](https://github.com/Chan-McLaren/crowdfunding_data_engineering_ISI)
 
 ---
