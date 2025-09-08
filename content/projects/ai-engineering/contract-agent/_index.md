@@ -14,4 +14,9 @@ This AI-powered contract analysis tool is built with Python and Streamlit, lever
 
 - The Streamlit frontend provides an interactive, real-time interface, displaying AI-generated analyses alongside keyword-based highlights for clarity and readability.
 
+---
+You can find the code for this project on my Github:
+[Github Repo](https://github.com/Chan-McLaren/contract-analysis-agent-AI-)
+
+---
 [Back to AI Engineering]({{< relref "../_index.md" >}})
