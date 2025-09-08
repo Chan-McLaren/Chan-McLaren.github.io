@@ -20,4 +20,9 @@ The following gallery showcases Python-based visualizations designed to highligh
 <img src="../static/images/MpgBar.png" alt="MPG Bar">
 {{< /gallery >}}
 
+---
+You can find a project using the methods shown in this gallery on my Github:
+[Github Repo](https://github.com/Chan-McLaren/Pymaceuticals-Inc.-Capomulin-)
+
+---
 [Back to Analytics and Visualizations]({{< relref "../_index.md" >}})

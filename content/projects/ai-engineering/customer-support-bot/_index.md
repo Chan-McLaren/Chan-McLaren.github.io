@@ -16,4 +16,9 @@ This chatbot is a Retrieval-Augmented Generation (RAG) system built using Python
 
 - This architecture ensures your chatbot can answer questions accurately based on the documents provided, while remaining scalable for additional knowledge sources.
 
+---
+You can find the code for this project on my Github:
+[Github Repo](https://github.com/Chan-McLaren/customer-support-chatbot)
+
+---
 [Back to AI Engineering]({{< relref "../_index.md" >}})
