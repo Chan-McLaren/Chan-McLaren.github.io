@@ -1,7 +1,7 @@
 ---
-title: "Crowdfunding Data Pipeline"
+title: "AWS(RDS) + PostgreSQL"
 draft: false
-summary: "A Data Pipeline Built within Pyhton , PostgresSQL, and AWS(RDS)"
+summary: "Crowdfunding Data Pipeline"
 ---
 The goal of this project is to take raw crowdfunding campaign data and build an analytics-ready database. The workflow includes:
 

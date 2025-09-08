@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Crowdfunding Data Pipeline on </title>
+    <title>AWS(RDS) &#43; PostgreSQL on </title>
     <link>http://localhost:1313/Chan-McLaren/Chan-McLaren.github.io/projects/data-engineering/aws-postgressql/</link>
-    <description>Recent content in Crowdfunding Data Pipeline on </description>
+    <description>Recent content in AWS(RDS) &#43; PostgreSQL on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>datasolutions.cm@gmail.com (Chandler McLaren)</managingEditor>
