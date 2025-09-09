@@ -18,7 +18,7 @@
     <meta name="title" content="MongoDB &middot; ">
 
   
-  <meta name="description" content="Project Coming Soon!">
+  <meta name="description" content="Database for a Movie Recommendation System">
   
   
   
@@ -101,7 +101,7 @@
   
   <meta property="og:url" content="http://localhost:1313/Chan-McLaren/Chan-McLaren.github.io/projects/data-engineering/mongodb/">
   <meta property="og:title" content="MongoDB">
-  <meta property="og:description" content="Project Coming Soon!">
+  <meta property="og:description" content="Database for a Movie Recommendation System">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="website">
     <meta property="og:image" content="http://localhost:1313/Chan-McLaren/Chan-McLaren.github.io/projects/data-engineering/mongodb/featured.jpg">
@@ -110,7 +110,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="http://localhost:1313/Chan-McLaren/Chan-McLaren.github.io/projects/data-engineering/mongodb/featured.jpg">
   <meta name="twitter:title" content="MongoDB">
-  <meta name="twitter:description" content="Project Coming Soon!">
+  <meta name="twitter:description" content="Database for a Movie Recommendation System">
 <meta name="twitter:image" content="http://localhost:1313/Chan-McLaren/Chan-McLaren.github.io/projects/data-engineering/mongodb/featured.jpg">
     <meta property="og:image" content="http://localhost:1313/Chan-McLaren/Chan-McLaren.github.io/projects/data-engineering/mongodb/featured.jpg">
   
@@ -166,6 +166,28 @@
 
 
 
+
+  
+  
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="/Chan-McLaren/Chan-McLaren.github.io/css/components/gallery.a340929bbb811e8e4d4a0f98c05ad907342e2adef8546efa14cc42546f8a8b87827e0e981916da043c388dfc064eeaa0812a210e6cf70be45e22cd385a560ba1.css"
+    integrity="sha512-o0CSm7uBHo5NSg&#43;YwFrZBzQuKt74VG76FMxCVG&#43;Ki4eCfg6YGRbaBDw4jfwGTuqggSohDmz3C&#43;ReIs04WlYLoQ==">
+  
+  
+  <script
+    defer
+    type="text/javascript"
+    src="/Chan-McLaren/Chan-McLaren.github.io/lib/packery/packery.pkgd.min.8b0cbb30a72acb6a0188f690a3768e9c531f056dcf18df8d739ececb994387d28137ed684b2f23da6df5a0c416eb4f8818d5db4493419a9b97c7452ac602fbd4.js"
+    integrity="sha512-iwy7MKcqy2oBiPaQo3aOnFMfBW3PGN&#43;Nc57Oy5lDh9KBN&#43;1oSy8j2m31oMQW60&#43;IGNXbRJNBmpuXx0UqxgL71A=="></script>
+
+  
+  
+  <script
+    type="text/javascript"
+    src="/Chan-McLaren/Chan-McLaren.github.io/js/shortcodes/gallery.min.066f04f8dacc3930df93010e4f91004c55c8971379324510b9703d5f02dcb9c0379e0d9be24c4da79e2a004cdf006f5d2990ef8899c528459515d1833b5c9459.js"
+    integrity="sha512-Bm8E&#43;NrMOTDfkwEOT5EATFXIlxN5MkUQuXA9XwLcucA3ng2b4kxNp54qAEzfAG9dKZDviJnFKEWVFdGDO1yUWQ=="></script>
 
 
 
@@ -718,16 +740,173 @@
   <section class="mt-0 prose flex max-w-full flex-col dark:prose-invert lg:flex-row">
     
     <div class="min-w-0 min-h-0 max-w-prose">
-      
-<h2 class="relative group">Project Coming Soon! 
-    <div id="project-coming-soon" class="anchor"></div>
+      <p>A full-stack movie recommendation system built by a team of 4, combining MongoDB for data management, Flask API for serving predictions, and a frontend for user interaction. MongoDB played a critical role as the database layer—storing cleaned datasets, enabling efficient queries, and acting as the bridge between raw movie/user data and the ML-powered recommendations.</p>
+
+<h2 class="relative group">Data Flow 
+    <div id="data-flow" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100 select-none">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#project-coming-soon" aria-label="Anchor">#</a>
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#data-flow" aria-label="Anchor">#</a>
     </span>        
     
 </h2>
+
+
+  
+  <div id="gallery-a77edbef6d275b9538ce2082d994bf0e" class="gallery">
+   
+<img src="/Chan-McLaren/Chan-McLaren.github.io/projects/data-engineering/mongodb/static/images/movie-details-list.png" alt="Movie Details"> 
+<img src="/Chan-McLaren/Chan-McLaren.github.io/projects/data-engineering/mongodb/static/images/movie-list.png" alt="Movie List">
+</div>
+
+<ul>
+<li>Raw data was collected, cleaned and transformed in Python.</li>
+<li>Stored structured collections in MongoDB.</li>
+<li>Mongo served as the central data hub, queried by Flask to power recommendations.</li>
+</ul>
+
+<h2 class="relative group">MongoDB Schema 
+    <div id="mongodb-schema" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100 select-none">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#mongodb-schema" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>Standard JSON Format
+<figure class="video">
+    <video 
+    controls 
+    preload="metadata" 
+    width="400" 
+     
+    autoplay muted playsinline 
+    loop>
+  
+<source src="/Chan-McLaren/Chan-McLaren.github.io/projects/data-engineering/mongodb/static/videos/standard-json.mp4" type="video/mp4">
+</video>
+</figure>
+MongoDB Format
+<figure class="video">
+    <video 
+    controls 
+    preload="metadata" 
+    width="400" 
+     
+    autoplay muted playsinline 
+    loop>
+  
+<source src="/Chan-McLaren/Chan-McLaren.github.io/projects/data-engineering/mongodb/static/videos/mongo-json.mp4" type="video/mp4">
+</video>
+</figure></p>
+<ul>
+<li>Collections: movie details (titles, genres, overview, poster paths).</li>
+<li>Collections: user preferences (IDs, ratings, interaction history).</li>
+<li>A flexible MongoDB schema allowed for easy addition of new features and data sources.</li>
+<li>No rigid schema, allowing for fast iteration during preprocessing and model tuning.</li>
+</ul>
+
+<h2 class="relative group">Flask API to MongoDB 
+    <div id="flask-api-to-mongodb" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100 select-none">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#flask-api-to-mongodb" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>
+
+
+
+
+
+
+<figure>
+      <img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="low"
+    alt="Mongo Connect"
+    srcset="
+      /Chan-McLaren/Chan-McLaren.github.io/projects/data-engineering/mongodb/static/images/mongo-connect_hu_35c6069f5c6aca88.png  330w,
+      /Chan-McLaren/Chan-McLaren.github.io/projects/data-engineering/mongodb/static/images/mongo-connect_hu_1932e7e494b20869.png  660w,
+      /Chan-McLaren/Chan-McLaren.github.io/projects/data-engineering/mongodb/static/images/mongo-connect_hu_5a85e8208ea84128.png 1280w
+    "
+    data-zoom-src="/Chan-McLaren/Chan-McLaren.github.io/projects/data-engineering/mongodb/static/images/mongo-connect.png"
+    src="/Chan-McLaren/Chan-McLaren.github.io/projects/data-engineering/mongodb/static/images/mongo-connect.png">
+
+  
+</figure>
+</p>
+<ul>
+<li>Flask API connects to MongoDB (pymongo/MongoClient).</li>
+<li>Queries user history and movie features directly form Mongo collecitons.</li>
+<li>Ensures real-time data access for personalized recommendations.</li>
+</ul>
+
+<h2 class="relative group">Example Query in MongoDB (Aggregation Pipeline) 
+    <div id="example-query-in-mongodb-aggregation-pipeline" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100 select-none">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#example-query-in-mongodb-aggregation-pipeline" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>
+
+
+
+
+
+
+<figure>
+      <img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="low"
+    alt="Mongo Aggregation"
+    srcset="
+      /Chan-McLaren/Chan-McLaren.github.io/projects/data-engineering/mongodb/static/images/aggregations_hu_56f05a0edf12e85c.png  330w,
+      /Chan-McLaren/Chan-McLaren.github.io/projects/data-engineering/mongodb/static/images/aggregations_hu_ef5256efd6141875.png  660w,
+      /Chan-McLaren/Chan-McLaren.github.io/projects/data-engineering/mongodb/static/images/aggregations_hu_29de0eec6db57769.png 1280w
+    "
+    data-zoom-src="/Chan-McLaren/Chan-McLaren.github.io/projects/data-engineering/mongodb/static/images/aggregations.png"
+    src="/Chan-McLaren/Chan-McLaren.github.io/projects/data-engineering/mongodb/static/images/aggregations.png">
+
+  
+</figure>
+</p>
+<ul>
+<li>Used aggregations in Mongo to filter through collections.</li>
+</ul>
+
+<h2 class="relative group">Endpoint 
+    <div id="endpoint" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100 select-none">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#endpoint" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<ul>
+<li>User enters ID, frontend sends request to Flask API.</li>
+<li>Flask retrieves data from MongoDB colections, runs ML models, returns recommendations.</li>
+<li>Mongo connects the raw data to the personalized predictions.</li>
+</ul>
+<hr>
+<p>You can find the code for this project in my
+<a
+  href="https://github.com/Chan-McLaren/Movie_Recommendation_Model"
+    target="_blank"
+  >Github Repo</a></p>
+<hr>
 <p><a
   href="/Chan-McLaren/Chan-McLaren.github.io/projects/data-engineering/">Back to Data Engineering</a></p>
 

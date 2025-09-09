@@ -28,17 +28,17 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://localhost:1313/Chan-McLaren/Chan-McLaren.github.io/projects/data-engineering/aws-postgressql/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://localhost:1313/Chan-McLaren/Chan-McLaren.github.io/projects/cloud-integration/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/Chan-McLaren/Chan-McLaren.github.io/contact/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/Chan-McLaren/Chan-McLaren.github.io/projects/data-engineering/aws-postgressql/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
