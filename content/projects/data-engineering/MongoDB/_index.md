@@ -9,8 +9,8 @@ A full-stack movie recommendation system built by a team of 4, combining MongoDB
 
 ## Data Flow
 {{< gallery >}} 
-<img src="static/images/movie-details-list.png" alt="Movie Details"> 
-<img src="static/images/movie-list.png" alt="Movie List">
+<img src="static/images/movie-details-list.png" width="400" alt="Movie Details"> 
+<img src="static/images/movie-list.png" width="400" alt="Movie List">
 {{< /gallery >}}
 - Raw data was collected, cleaned and transformed in Python.
 - Stored structured collections in MongoDB.
